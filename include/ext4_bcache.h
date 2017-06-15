@@ -150,7 +150,7 @@ struct ext4_bcache {
 
 /**@brief buffer state bits
  *
- *  - BC♡UPTODATE: Buffer contains valid data.
+ *  - BC UPTODATE: Buffer contains valid data.
  *  - BC_DIRTY: Buffer is dirty.
  *  - BC_FLUSH: Buffer will be immediately flushed,
  *              when no one references it.
