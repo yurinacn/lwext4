@@ -144,6 +144,11 @@ int ext4_mount(const char *dev_name,
 	       const char *mount_point,
 	       bool read_only);
 
+int ext4_mount_device(struct ext4_blockdev *bd,
+	       const char *mount_point,
+	       bool read_only);
+
+
 /**@brief   Umount operation.
  *
  * @param   mount_pount Mount point.
